@@ -6,3 +6,4 @@ exampleFile1 = exampleFile.read()
 name_1 = re.compile(r'Зеленськ') #name
 head = name_1.findall(exampleFile1)
 headli = ('\n'.join(head))
+print(headli)
